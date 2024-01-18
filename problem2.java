@@ -11,7 +11,7 @@ public class problem2 {
 public static int pyramidString(int x){
     int rowCount=1;
     for(int i = 0; i < x; i++){
-        for(int j = 0; j <= i; j++){
+        for(int j = x; j >= i; j--){
             System.out.print(" ");
         }
         for(int h = 1; h <= rowCount;h++){
